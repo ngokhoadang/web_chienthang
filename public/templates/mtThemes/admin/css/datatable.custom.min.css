@@ -1,0 +1,93 @@
+table.dataTable {
+  margin: 0 !important; }
+
+.dataTables_filter label {
+  font-weight: normal; }
+  .dataTables_filter label input[type="search"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 250px;
+    border-radius: 20px; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.dataTables_wrapper .dataTables_paginate {
+  clear: both;
+  float: inherit !important;
+  text-align: left !important; }
+
+.dataTables_wrapper .dataTables_filter {
+  float: inherit !important;
+  text-align: left !important; }
+
+.dataTables_processing {
+  height: 100%;
+  z-index: 999; }
+
+#mt-apploading {
+  width: 40px;
+  height: 40px;
+  margin: 0px auto; }
+
+#mt-apploading .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #3c8dbc;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; }
+
+#mt-apploading .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+#mt-apploading .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+#mt-apploading .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s; }
+
+#mt-apploading .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+#mt-apploading .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+#mt-apploading .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+#mt-apploading .sk-cube7 {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s; }
+
+#mt-apploading .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s; }
+
+#mt-apploading .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+    transform: scale3D(1, 1, 1); }
+  35% {
+    -webkit-transform: scale3D(0, 0, 1);
+    transform: scale3D(0, 0, 1); } }
+
+/*# sourceMappingURL=datatable.custom.min.css.map */

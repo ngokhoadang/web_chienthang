@@ -1,0 +1,160 @@
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+* { margin: 0; padding: 0; }
+
+ul { list-style: none; }
+
+.table { margin: 0; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.bg_white { background-color: #fff; }
+
+.bg_gray { background-color: #e0e0e0; }
+
+.bg_red { background-color: #FF5F5D; }
+
+.bg_orange { background-color: #FFBF1F; }
+
+.bg_green { background-color: #38a600; }
+
+.bg_purple { background-color: #CA5BDE; }
+
+.bg_blue { background-color: #0b8fdc; }
+
+.block { display: block; }
+
+.no-border { border: none; }
+
+.clr { clear: both; }
+
+.hidden { display: none; }
+
+.no-padding { padding: 0; margin: 0; }
+
+.align-left { text-align: left; }
+
+.align-right { text-align: right; }
+
+.align-center { text-align: center; }
+
+.cl-white { color: #fff; }
+
+.cl-black { color: #000; }
+
+.cl-red { color: #f00; }
+
+.cl-orange { color: orange; }
+
+.cl-success { color: #31a531; }
+
+.cl-warning { color: #d9534f; }
+
+.cl-new { color: #052d54; }
+
+.cl-green { color: #006700; }
+
+.cl-blue { color: #0000ff; }
+
+.no-strong { font-weight: normal; }
+
+.text-normal { font-weight: normal; }
+
+.inp-qty { width: 80px; padding: 3px; }
+
+.p_lx { font-size: 24px; }
+
+.p_lg { font-size: 20px; }
+
+.p_md { font-size: 14px; }
+
+.p_sm { font-size: 12px; }
+
+.p_ssm { font-size: 10px; }
+
+.italic { font-style: italic; }
+
+.bold { font-weight: bold; }
+
+.border { border: 1px solid #3c8dbc; }
+
+.border-top { border-top: 1px solid #3c8dbc; }
+
+.border-bottom { border-bottom: 1px solid #3c8dbc; }
+
+.border-left { border-left: 1px solid #3c8dbc; }
+
+.border-right { border-right: 1px solid #3c8dbc; }
+
+.padding { padding: 5px 5px; }
+
+.padding-top { padding-top: 5px 5px; }
+
+.padding-bottom { padding-bottom: 5px 5px; }
+
+.padding-left { padding-left: 5px 5px; }
+
+.padding-right { padding-right: 5px 5px; }
+
+.margin { margin: 5px 5px; }
+
+.margin-top { margin-top: 5px 5px; }
+
+.margin-bottom { margin-bottom: 5px 5px; }
+
+.margin-left { margin-left: 5px 5px; }
+
+.margin-right { margin-right: 5px 5px; }
+
+.btn-sml { font-size: 12px; padding: 2px 8px; }
+
+.full-width { width: 100%; }
+
+.success { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; padding: 5px 5px; }
+
+.info { color: #31708f; background-color: #d9edf7; border-color: #bcdff1; padding: 5px 5px; }
+
+.warning { color: #856404; background-color: #fff3cd; border-color: #ffeeba; padding: 8px; }
+
+.danger { color: #a94442; background-color: #f2dede; border-color: #ebccd1; padding: 8px; }
+
+.dark { color: #333; background-color: rgba(0, 0, 0, 0.2); border-color: #c6c8ca; padding: 8px; }
+
+.msg-error { color: #c00; background-color: #fdd354; border-color: #ffc107; padding: 8px; list-style: square; padding-left: 20px; }
+
+.showerror { color: #c00; background-color: #fdd354; border-color: #ffc107; padding: 8px; list-style: square; padding-left: 20px; }
+
+.fstElement { font-size: 13px; width: 100%; }
+.fstElement .fstToggleBtn { font-size: 13px; padding: 8px; }
+.fstElement .fstControls .fstQueryInput { font-size: 13px; }
+
+.croll-box { padding: 8px; height: 550px; overflow-y: auto; overflow-x: hidden; }
+.croll-box::-webkit-scrollbar { width: 1em; }
+.croll-box::-webkit-scrollbar-track { box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+.croll-box::-webkit-scrollbar-thumb { background-color: darkgrey; outline: 1px solid slategrey; }
+.croll-box .row { border-bottom: 1px solid #f1f1f1; margin-bottom: 8px; }
+
+.icheckbox_minimal-red { margin-right: 8px; }
+
+.detail-module-items { display: inline-block; min-width: 200px; }
+
+/*# sourceMappingURL=login.min.css.map */

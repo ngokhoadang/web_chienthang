@@ -1,0 +1,16 @@
+.media-container {
+  display: grid;
+  grid-template-columns: 200px 1fr; }
+  .media-container .media-column {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3); }
+  .media-container ul li {
+    padding: 5px 10px;
+    cursor: pointer; }
+    .media-container ul li:hover {
+      background: #f4f4f4; }
+    .media-container ul li.actived {
+      background: #f4f4f4; }
+    .media-container ul li > ul {
+      display: none; }
+
+/*# sourceMappingURL=media.main.css.map */

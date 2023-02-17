@@ -1,0 +1,92 @@
+#modalMedia {
+  width: 100%;
+  height: 600px;
+  background: white;
+  padding: 10px; }
+  #modalMedia .dropzone {
+    margin: 0 auto;
+    border: 2px dashed #247bbb;
+    width: 1000px;
+    height: 100px; }
+
+#modalCropImage {
+  z-index: 99999; }
+  #modalCropImage img {
+    display: block;
+    width: 100%; }
+
+#uploadBox {
+  width: 100%;
+  height: 650px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #fff; }
+  #uploadBox .media-header {
+    display: inline-block;
+    font-weight: 500; }
+  #uploadBox .media-close {
+    display: inline-block;
+    float: right;
+    border: 1px solid #333;
+    padding: 0px 10px;
+    border-radius: 3px;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer; }
+
+.media-upload {
+  border: 1px solid #ccc;
+  padding: 15px 0;
+  cursor: pointer; }
+  .media-upload .media-upload-icon {
+    font-size: 30px; }
+  .media-upload .media-upload-text {
+    font-size: 14px;
+    font-weight: normal; }
+
+.file-list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px; }
+  .file-list .file-list-items {
+    position: relative; }
+    .file-list .file-list-items input[type="radio"] {
+      display: none; }
+    .file-list .file-list-items input[type="radio"] + div.file-image-items {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #ccc;
+      border-radius: 3px;
+      vertical-align: middle;
+      background: #f1f1f1; }
+    .file-list .file-list-items input[type="radio"]:checked + div.file-image-items {
+      border: 2px solid green; }
+    .file-list .file-list-items input[type="radio"]:checked + div.file-image-items + div.file-bg-items {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      top: 0;
+      left: 0; }
+    .file-list .file-list-items img {
+      max-width: 100%; }
+
+.addfolder-form.open {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9; }
+.addfolder-form .media-addfolder-form {
+  position: absolute;
+  z-index: 9999;
+  width: 500px;
+  left: 10px;
+  top: 110px; }
+
+/*# sourceMappingURL=dropzonecrop.min.css.map */

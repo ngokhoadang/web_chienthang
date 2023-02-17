@@ -1,0 +1,1397 @@
+@charset "UTF-8";
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+img {
+  max-width: 100%; }
+
+.table {
+  margin: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.bg_white {
+  background-color: #fff; }
+
+.bg_gray {
+  background-color: #e0e0e0; }
+
+.bg_red {
+  background-color: #FF5F5D; }
+
+.bg_orange {
+  background-color: #FFBF1F; }
+
+.bg_green {
+  background-color: #38a600; }
+
+.bg_purple {
+  background-color: #CA5BDE; }
+
+.bg_blue {
+  background-color: #0b8fdc; }
+
+.block {
+  display: block; }
+
+.no-border {
+  border: none; }
+
+.clr {
+  clear: both; }
+
+.hidden {
+  display: none; }
+
+.no-padding {
+  padding: 0;
+  margin: 0; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.cl-white {
+  color: #fff; }
+
+.cl-black {
+  color: #000; }
+
+.cl-red {
+  color: #f00; }
+
+.cl-orange {
+  color: orange; }
+
+.cl-success {
+  color: #31a531; }
+
+.cl-warning {
+  color: #d9534f; }
+
+.cl-new {
+  color: #052d54; }
+
+.cl-green {
+  color: #006700; }
+
+.cl-blue {
+  color: #0000ff; }
+
+.no-strong {
+  font-weight: normal; }
+
+.text-normal {
+  font-weight: normal; }
+
+.inp-qty {
+  width: 80px;
+  padding: 3px; }
+
+.p_lx {
+  font-size: 24px; }
+
+.p_lg {
+  font-size: 20px; }
+
+.p_md {
+  font-size: 14px; }
+
+.p_sm {
+  font-size: 12px; }
+
+.p_ssm {
+  font-size: 10px; }
+
+.italic {
+  font-style: italic; }
+
+.bold {
+  font-weight: bold; }
+
+.border {
+  border: 1px solid #ffe400; }
+
+.border-top {
+  border-top: 1px solid #ffe400; }
+
+.border-bottom {
+  border-bottom: 1px solid #ffe400; }
+
+.border-left {
+  border-left: 1px solid #ffe400; }
+
+.border-right {
+  border-right: 1px solid #ffe400; }
+
+.padding {
+  padding: 5px 5px; }
+
+.padding-5x {
+  padding: 25px 25px; }
+
+.padding-top {
+  padding-top: 5px 5px; }
+
+.padding-bottom {
+  padding-bottom: 5px 5px; }
+
+.padding-left {
+  padding-left: 5px 5px; }
+
+.padding-right {
+  padding-right: 5px 5px; }
+
+.margin {
+  margin: 5px 5px; }
+
+.margin-top {
+  margin-top: 5px 5px; }
+
+.margin-bottom {
+  margin-bottom: 5px 5px; }
+
+.margin-left {
+  margin-left: 5px 5px; }
+
+.margin-right {
+  margin-right: 5px 5px; }
+
+.btn-sml {
+  font-size: 12px;
+  padding: 2px 8px; }
+
+.full-width {
+  width: 100%; }
+
+.success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 5px 5px; }
+
+.info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bcdff1;
+  padding: 5px 5px; }
+
+.warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  padding: 8px; }
+
+.danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 8px; }
+
+.dark {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: #c6c8ca;
+  padding: 8px; }
+
+.msg-error {
+  color: #c00;
+  background-color: #fdd354;
+  border-color: #ffc107;
+  padding: 8px;
+  list-style: square;
+  padding-left: 20px; }
+
+.showerror {
+  color: #c00;
+  background-color: #fdd354;
+  border-color: #ffc107;
+  padding: 8px;
+  list-style: square;
+  padding-left: 20px; }
+
+.fstElement {
+  font-size: 13px;
+  width: 100%; }
+  .fstElement .fstToggleBtn {
+    font-size: 13px;
+    padding: 8px; }
+  .fstElement .fstControls .fstQueryInput {
+    font-size: 13px; }
+
+.croll-box {
+  padding: 8px;
+  height: 550px;
+  overflow-y: auto;
+  overflow-x: hidden; }
+  .croll-box::-webkit-scrollbar {
+    width: 1em; }
+  .croll-box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+  .croll-box::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey; }
+  .croll-box .row {
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 8px; }
+
+.icheckbox_minimal-red {
+  margin-right: 8px; }
+
+.detail-module-items {
+  display: inline-block;
+  min-width: 200px; }
+
+.layout-remove-buttons {
+  display: none;
+  border: 1px solid red;
+  padding: 3px 9px;
+  position: absolute;
+  right: 4px;
+  border-radius: 3px;
+  background: #f00;
+  color: #fff;
+  font-size: 16px;
+  top: 3px;
+  cursor: pointer; }
+
+.layout-container .layout-remove-buttons {
+  display: block; }
+
+/**
+ * CHOOSE IMAGE BOX
+ * -- Hiển thị box button chọn hình ảnh đại diện hoặc các ảnh có liên quan
+ */
+.choose-image-review img {
+  max-width: 100%; }
+
+/** RADIO BOX **/
+.radio-box .list-items {
+  display: inline-block; }
+.radio-box input[type="radio"] {
+  display: none; }
+.radio-box input[type="radio"] + span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  vertical-align: middle;
+  background: #f1f1f1; }
+.radio-box input[type="radio"]:checked + span + label {
+  color: #000;
+  font-weight: bold; }
+.radio-box input[type="radio"] + label {
+  border: 2px solid #ccc;
+  background: #f4f4f4;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-right: 10px; }
+.radio-box input[type="radio"]:checked + label {
+  border: 2px solid #ffb307;
+  background: #ffe894; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.error_403bg {
+  background: url("../../images/403.png") center right no-repeat; }
+
+.error_404bg {
+  background: url("../../images/404.png") center right no-repeat; }
+
+.error-content {
+  width: 500px;
+  margin: 30px auto; }
+  .error-content .errors-text {
+    font-size: 130px;
+    font-weight: bold;
+    color: #a5a5a5;
+    line-height: 110px; }
+  .error-content .errors-content {
+    font-size: 20px;
+    color: #e04006; }
+
+.error-details {
+  width: 500px;
+  border-top: 1px solid #ccc;
+  margin: 8px auto;
+  padding: 8px; }
+  .error-details .error-header {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7f7f7f; }
+  .error-details ul {
+    list-style: circle;
+    margin-left: 20px; }
+    .error-details ul li {
+      padding: 8px;
+      color: #e04006; }
+
+/* Style the list */
+.breadcrumb-default ul {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee; }
+  .breadcrumb-default ul li {
+    display: inline;
+    font-size: 18px; }
+    .breadcrumb-default ul li + li:before {
+      padding: 8px;
+      color: black;
+      content: ">\00a0"; }
+    .breadcrumb-default ul li a {
+      color: #0275d8;
+      text-decoration: none; }
+      .breadcrumb-default ul li a:hover {
+        color: #01447e;
+        text-decoration: underline; }
+
+.col-md-1 {
+  width: 8.333333%; }
+
+.col-md-2 {
+  width: 16.666666%; }
+
+.col-md-3 {
+  width: 25%; }
+
+.col-md-4 {
+  width: 33.333333%; }
+
+.col-md-5 {
+  width: 41.666666%; }
+
+.col-md-6 {
+  width: 50%; }
+
+.col-md-7 {
+  width: 58.333333%; }
+
+.col-md-8 {
+  width: 66%; }
+
+.col-md-9 {
+  width: 75%; }
+
+.col-md-10 {
+  width: 83.33333%; }
+
+.col-md-11 {
+  width: 91.666666%; }
+
+.col-md-12 {
+  width: 100%; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.show-header {
+  width: 100%; }
+  .show-header.header-line2 {
+    background: #ffe400; }
+  .show-header .header-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; }
+
+.show-body {
+  width: 100%;
+  background: #fff url("../../../../images/images/body_bg.png") no-repeat; }
+  .show-body .body-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto; }
+  .show-body .banner-slide {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center; }
+
+.show-footer {
+  background: #ffe400 url("../../../../images/images/footer_bg.png") no-repeat; }
+  .show-footer .footer-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
+  .show-footer .copyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center; }
+
+/** FORM SEARCH **/
+.frm-search {
+  width: 100%;
+  border: 1px solid #ffe400;
+  border-radius: 10px;
+  position: relative;
+  margin: 35px 0; }
+  .frm-search input {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 90%;
+    border-radius: 10px;
+    outline: none; }
+  .frm-search button {
+    position: absolute;
+    right: 0;
+    background: #ffe400;
+    padding: 10px 10px;
+    border: 1px solid #ffe400;
+    border-radius: 0 7px 7px 0;
+    color: #fff;
+    text-transform: uppercase; }
+
+.header-social ul {
+  display: flex;
+  margin: 25px; }
+  .header-social ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.grid-layout {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px; }
+
+.grap1column {
+  grid-template-columns: repeat(1, 1fr); }
+
+.grap2column {
+  grid-template-columns: repeat(2, 1fr); }
+
+.grap3column {
+  grid-template-columns: repeat(3, 1fr); }
+
+.grap4column {
+  grid-template-columns: repeat(4, 1fr); }
+
+/**
+ * THIẾT LẬP WIDGET
+ */
+.widgetTitle {
+  padding-top: 10px; }
+  .widgetTitle .widget-title {
+    padding: 0 10px 0 35px;
+    background: #ffe400 url("../../../../images/icon/widget_icon.png") 10px center no-repeat;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase; }
+
+.show-body .widgetContent {
+  padding: 10px 0; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.main-menu ul {
+  display: flex; }
+  .main-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .main-menu ul li ul {
+    display: none; }
+  .main-menu ul li:hover a {
+    background: rgba(0, 0, 0, 0.2); }
+  .main-menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 300px;
+    background: #ffe400;
+    z-index: 9; }
+
+.article-items .article-image {
+  width: 100%;
+  height: 220px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden; }
+  .article-items .article-image img {
+    max-width: 100%;
+    height: 220px;
+    object-fit: cover; }
+.article-items .article-title a {
+  font-weight: bold; }
+  .article-items .article-title a span {
+    display: block;
+    color: #000;
+    padding: 8px 0; }
+.article-items .article-post {
+  display: inline-flex;
+  font-size: 13px;
+  color: #ccc;
+  padding: 8px 0; }
+  .article-items .article-post .author {
+    color: #f00; }
+  .article-items .article-post .datetime {
+    padding: 0 10px;
+    font-style: italic; }
+.article-items .article-intro {
+  font-size: 13px;
+  color: #ccc; }
+
+.grap1columnleftimage .article-items .article-image {
+  width: 40%;
+  height: 120px;
+  float: left;
+  margin-right: 10px; }
+  .grap1columnleftimage .article-items .article-image img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: cover; }
+.grap1columnleftimage .article-items .article-post {
+  border-bottom: 1px solid #ffe400; }
+
+.hotline {
+  background-image: url("../../../../images/icon/hotline_bg.png");
+  width: 256px;
+  height: 79px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 0; }
+  .hotline .hotline-num {
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 6px;
+    padding-left: 75px; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.info {
+  background-color: #ffe400;
+  color: black;
+  font-weight: bolder;
+  padding-top: 10px; }
+  .info .info-line {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 3px;
+    width: 95%;
+    background-color: orange; }
+
+.copyright {
+  color: black;
+  background-color: orange;
+  width: 1200px;
+  margin: 0; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.fb {
+  padding: 20px; }
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  background: #f2f2f2; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0; }
+
+.form_wrapper {
+  background: #fff;
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  margin: 8% auto 0;
+  position: relative;
+  z-index: 1;
+  border-top: 5px solid #f5ba1a;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: none;
+  transition: none;
+  -webkit-animation: expand 0.8s 0.6s ease-out forwards;
+  animation: expand 0.8s 0.6s ease-out forwards;
+  opacity: 0; }
+  .form_wrapper h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0; }
+  .form_wrapper .title_container {
+    text-align: center;
+    padding-bottom: 15px; }
+  .form_wrapper h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0; }
+  .form_wrapper label {
+    font-size: 12px; }
+  .form_wrapper .row {
+    margin: 10px -15px; }
+    .form_wrapper .row > div {
+      padding: 0 15px;
+      box-sizing: border-box; }
+  .form_wrapper .col_half {
+    width: 50%;
+    float: left; }
+  .form_wrapper .input_field {
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-animation: bounce 0.6s ease-out;
+    animation: bounce 0.6s ease-out; }
+    .form_wrapper .input_field > span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #333;
+      height: 100%;
+      border-right: 1px solid #cccccc;
+      text-align: center;
+      width: 30px; }
+      .form_wrapper .input_field > span > i {
+        padding-top: 10px; }
+  .form_wrapper .textarea_field > span > i {
+    padding-top: 10px; }
+  .form_wrapper input[type="text"], .form_wrapper input[type="email"], .form_wrapper input[type="password"] {
+    width: 100%;
+    padding: 8px 10px 9px 35px;
+    height: 35px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    outline: none; }
+  .form_wrapper input[type="text"]:hover, .form_wrapper input[type="email"]:hover, .form_wrapper input[type="password"]:hover {
+    background: #fafafa; }
+  .form_wrapper input[type="text"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus {
+    -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
+    border: 1px solid #f5ba1a;
+    background: #fafafa; }
+  .form_wrapper input[type="submit"] {
+    background: #f5ba1a;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out; }
+    .form_wrapper input[type="submit"]:hover {
+      background: #e1a70a; }
+    .form_wrapper input[type="submit"]:focus {
+      background: #e1a70a; }
+  .form_wrapper input[type="checkbox"], .form_wrapper input[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+
+.form_container .row .col_half.last {
+  border-left: 1px solid #cccccc; }
+
+.modal-header {
+  background-color: #FFA500; }
+  .modal-header #modal-title {
+    font-weight: bolder; }
+
+.modal-body .form_wrapper {
+  border-top: 0px; }
+
+.modal-footer .btn-primary {
+  background-color: #FFA500;
+  border: 1px solid #FFA500; }
+
+.checkbox_option label {
+  margin-right: 1em;
+  position: relative; }
+  .checkbox_option label:before {
+    content: "";
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 0.5em;
+    vertical-align: -2px;
+    border: 2px solid #cccccc;
+    padding: 0.12em;
+    background-color: transparent;
+    background-clip: content-box;
+    transition: all 0.2s ease; }
+  .checkbox_option label:after {
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+    content: "";
+    height: 20px;
+    left: 2px;
+    position: absolute;
+    top: 7px;
+    transform: scaleX(-1) rotate(135deg);
+    transform-origin: left top;
+    width: 7px;
+    display: none; }
+.checkbox_option input:hover + label:before {
+  border-color: #000000; }
+.checkbox_option input:checked + label:before {
+  border-color: #000000; }
+.checkbox_option input:checked + label:after {
+  -moz-animation: check 0.8s ease 0s running;
+  -webkit-animation: check 0.8s ease 0s running;
+  animation: check 0.8s ease 0s running;
+  display: block;
+  width: 7px;
+  height: 20px;
+  border-color: #000000; }
+
+.radio_option label {
+  margin-right: 1em; }
+  .radio_option label:before {
+    content: "";
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 100%;
+    vertical-align: -3px;
+    border: 2px solid #cccccc;
+    padding: 0.15em;
+    background-color: transparent;
+    background-clip: content-box;
+    transition: all 0.2s ease; }
+.radio_option input:hover + label:before {
+  border-color: #000000; }
+.radio_option input:checked + label:before {
+  background-color: #000000;
+  border-color: #000000; }
+
+.select_option {
+  position: relative;
+  width: 100%; }
+  .select_option select {
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    color: #7b7b7b;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    background: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: all 0.2s ease; }
+    .select_option select::-ms-expand {
+      display: none; }
+    .select_option select:hover, .select_option select:focus {
+      color: #000000;
+      background: #fafafa;
+      border-color: #000000;
+      outline: none; }
+
+.select_arrow {
+  position: absolute;
+  top: calc(50% - 4px);
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-width: 8px 5px 0 5px;
+  border-style: solid;
+  border-color: #7b7b7b transparent transparent transparent; }
+
+.select_option select:hover + .select_arrow, .select_option select:focus + .select_arrow {
+  border-top-color: #000000; }
+
+.credit {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 15px;
+  color: #f5ba1a; }
+  .credit a {
+    color: #e1a70a; }
+
+@-webkit-keyframes check {
+  0% {
+    height: 0;
+    width: 0; }
+  25% {
+    height: 0;
+    width: 7px; }
+  50% {
+    height: 20px;
+    width: 7px; } }
+@keyframes check {
+  0% {
+    height: 0;
+    width: 0; }
+  25% {
+    height: 0;
+    width: 7px; }
+  50% {
+    height: 20px;
+    width: 7px; } }
+@-webkit-keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1); }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1); }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    opacity: 1; } }
+@keyframes expand {
+  0% {
+    -webkit-transform: scale3d(1, 0, 1);
+    transform: scale3d(1, 0, 1);
+    opacity: 0; }
+  25% {
+    -webkit-transform: scale3d(1, 1.2, 1);
+    transform: scale3d(1, 1.2, 1); }
+  50% {
+    -webkit-transform: scale3d(1, 0.85, 1);
+    transform: scale3d(1, 0.85, 1); }
+  75% {
+    -webkit-transform: scale3d(1, 1.05, 1);
+    transform: scale3d(1, 1.05, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    opacity: 1; } }
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0); }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0); }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+@keyframes bounce {
+  0% {
+    -webkit-transform: translate3d(0, -25px, 0);
+    transform: translate3d(0, -25px, 0);
+    opacity: 0; }
+  25% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  50% {
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0); }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+@media (max-width: 600px) {
+  .form_wrapper .col_half {
+    width: 100%;
+    float: none; }
+
+  .bottom_row .col_half {
+    width: 50%;
+    float: left; }
+
+  .form_container .row .col_half.last {
+    border-left: none; }
+
+  .remember_me {
+    padding-bottom: 20px; } }
+.footer-logo {
+  padding-top: 20px;
+  padding-left: 70px;
+  width: 200px; }
+  .footer-logo .footer-logo-im {
+    padding-bottom: 10px; }
+  .footer-logo .footer-logo-content {
+    border: 2px solid white;
+    color: black;
+    font-size: 15px;
+    padding: 10px; }
+    .footer-logo .footer-logo-content .footer-logo-content-details {
+      padding: 2px;
+      font-weight: bolder; }
+
+.links-table .links-table-head {
+  text-align: center;
+  font-weight: bolder; }
+.links-table .links-table-content {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 5px; }
+  .links-table .links-table-content img {
+    padding-right: 10px; }
+
+td {
+  border-bottom: 2px dotted orange;
+  font-weight: bolder; }
+
+.links-table {
+  font-weight: bolder;
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 7px;
+  border: 2px solid orange; }
+
+th {
+  background-color: orange; }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; }
+
+.links-table-content:hover {
+  background-color: #ffe400; }
+
+.index-widget-loader {
+  text-align: left; }
+  .index-widget-loader th {
+    background-color: orange; }
+  .index-widget-loader table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    border: 2px solid orange; }
+
+.about-layout {
+  display: flex; }
+
+.i_arrow {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url("../../../../images/icon/muiten.png") center center no-repeat;
+  background-size: 90%; }
+
+.lotrinhhoc {
+  background: #ffe400 url("../../../../images/images/footer_bg.png") no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .lotrinhhoc .lotrinhhoc-title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center; }
+    .lotrinhhoc .lotrinhhoc-title .title-span {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 700;
+      color: red; }
+  .lotrinhhoc .lotrinh-images {
+    padding-top: 20px;
+    width: 100%;
+    height: auto; }
+    .lotrinhhoc .lotrinh-images .lotrinh-cha {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .lotrinhhoc .lotrinh-images .lotrinh-cha img {
+        width: 100px;
+        height: 100px; }
+      .lotrinhhoc .lotrinh-images .lotrinh-cha img.lotrinh-images1 {
+        max-width: 70px;
+        max-height: 40px;
+        display: flex; }
+
+.nor {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  text-align: center; }
+
+.spec {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: red;
+  text-align: center; }
+
+.lotrinh-con {
+  text-align: center; }
+
+/** Custome templale software */
+/** ======================================================================== */
+/** FONT | BACKGROUND **/
+/** ======================================================================== */
+/** HEADER */
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** FOOTER */
+/** ======================================================================== */
+/** MỘT SỐ THAM SỐ MẶC ĐỊNH */
+/** ======================================================================== */
+/** WIDGET HEADER */
+/** ======================================================================== */
+/** KHOẢNG CÁCH GIỮA CÁC TIN */
+/** ======================================================================== */
+/** ẢNH BÀI VIẾT (ẢNH LỚN) */
+/** ẢNH BÀI VIẾT (ẢNH NHỎ) */
+/** Custome templale software */
+/** ======================================================================== */
+/** Font **/
+/** ======================================================================== */
+/** BODY */
+/** ======================================================================== */
+/** SCROLL BOX */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/** ======================================================================== */
+/*********** BORDER WIDTH */
+/*********** SHOW BORDER */
+/*********** GRAP WIDTH COLUMN */
+.title {
+  background-color: #FFA500; }
+  .title p {
+    font-family: 'Rubik', sans-serif;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0px; }
+
+.khoahoc {
+  max-width: 1200;
+  background-color: #ffe400;
+  border: 2px solid orange;
+  border-radius: 2px;
+  display: table; }
+  .khoahoc .khoahoc-widget {
+    padding-bottom: 10px;
+    display: table-cell; }
+    .khoahoc .khoahoc-widget .khoahoc-image {
+      border: 2px solid orange;
+      border-radius: 2px;
+      margin: 5px auto;
+      width: 261px;
+      height: 182px; }
+    .khoahoc .khoahoc-widget .khoahoc-title {
+      text-align: center;
+      font-weight: bolder; }
+    .khoahoc .khoahoc-widget .khoahoc-content {
+      margin: 0 5px 5px 5px;
+      font-weight: bold;
+      text-align: center;
+      max-width: 300px; }
+      .khoahoc .khoahoc-widget .khoahoc-content span {
+        font-weight: bold;
+        color: red; }
+    .khoahoc .khoahoc-widget .dangky-button {
+      margin: 0 auto;
+      width: 200px;
+      border: 1px solid black;
+      border-radius: 3px;
+      text-align: center;
+      background-color: red;
+      font-family: 'Rubik', sans-serif;
+      color: white;
+      font-weight: bolder;
+      text-decoration: none; }
+
+.y-kien {
+  text-align: center; }
+  .y-kien p {
+    font-size: 16px;
+    padding: 15px;
+    font-weight: bolder; }
+
+.crumb1 li {
+  display: inline-block;
+  padding: 10px;
+  background: #FFA500;
+  transform: skew(-20deg);
+  cursor: pointer;
+  opacity: 0.8;
+  font-family: poppins;
+  text-decoration: none;
+  user-select: none; }
+
+.crumb1 li:hover {
+  opacity: 1; }
+
+.crumb1 li a {
+  color: black;
+  font-weight: bolder;
+  display: block;
+  transform: skew(20deg); }
+
+.center {
+  padding: 10px; }
+
+/*# sourceMappingURL=main.min.css.map */
